@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.pytest_cache/
+data/
+spark-warehouse/
+metastore_db/
+derby.log
+
+# ETL output (regenerate with the trajetl CLI)
+results/*/parquet/
